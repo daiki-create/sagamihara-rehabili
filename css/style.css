@@ -12,6 +12,24 @@ html {
   color: #333;
 }
 
+@media screen and (max-width:768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:440px) {
+  html {
+    font-size: 10px;
+  }
+}
+
 ul {
   list-style: none;
 }
@@ -295,6 +313,12 @@ body {
   padding: 0 1em;
 }
 
+.wrapper2 {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
 .wrapper_contact {
   text-align: center;
 }
@@ -484,23 +508,24 @@ body {
     -ms-flex-align: center;
         align-items: center;
   position: relative;
-  height: 5em;
+  height: 4.6em;
 }
 
 .header__top img {
   position: absolute;
   width: 10%;
-  height: 4em;
-  margin: 0.5em;
+  height: 3.4rem;
+  margin-left: 0.5em;
 }
 
 .header__top h1 {
   font-family: koz;
   font-weight: bold;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   color: #0071BB;
-  padding: 0.5rem 0;
+  /* padding: 0.5rem 0; */
+  margin-bottom: 0 !important;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -510,10 +535,10 @@ body {
   font-family: koz;
   font-weight: bold;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   background: #0071BB;
   color: white;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   margin-bottom: 0.5rem;
 }
 
@@ -522,23 +547,36 @@ body {
   font-family: koz-h;
   color: #0071BB;
   line-height: 1.25em;
-  font-size: 2.2em;
+  font-size: 2.6em;
   margin-bottom: 1rem;
 }
 
 .header__main_red {
-    font-size: 3.5rem !important;
+    font-size: 3.8rem !important;
     color: #F05A24 !important;
     position: relative;
+    transform   : scale(1.0, 2.0) !important; 
 }
 
 .header__main_red::before{
     content: "・・ ・";
     color: #F05A24 !important;
     position: absolute;
-    font-size: 3.5rem !important;
+    font-size: 3.8rem !important;
     top: -35px;
     left: 0;
+}
+
+@media screen and (max-width:768px) {
+  .header__main_red::before{
+    top: -40px !important;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .header__main_red::before{
+    top: -30px !important;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -548,7 +586,11 @@ body {
 }
 
 .header__main_small {
-  font-size: 1.6rem !important;
+  font-size: 1.4rem !important;
+}
+
+.header__main_middle {
+  font-size: 2.0rem;
 }
 
 .header__bottom {
@@ -561,7 +603,7 @@ body {
 }
 
 .header__bottom_small {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .header__img {
@@ -587,6 +629,11 @@ body {
 #contents {
   font-size: 1.6rem;
   font-weight: 900;
+}
+@media screen and (min-width:1000px) {
+  #contents {
+    padding: 1rem !important;
+  }
 }
 #contents p {
   margin-top: 0 !important;

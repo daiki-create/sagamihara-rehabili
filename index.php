@@ -42,10 +42,10 @@
         </h2>
         <h2 class="header__main thick_blue">
             <span class="header__main_red thick_red">９２.７%</span>が改善を実感<span class="header__main_small">(※1)</span><br>
-            <span class="header__main_small thick_blue">健康保険適用の訪問リハビリマッサージ</span>
+            <span class="header__main_middle thick_blue">健康保険適用の訪問リハビリマッサージ</span>
         </h2>
 
-        <div class="wrapper wrapper_650">
+        <div class="wrapper2 wrapper_650">
             <img src="img/main.jpg" alt="トップ写真">
         </div>
 
@@ -60,15 +60,6 @@
             <p class="header__annotation hp_mb15">※3　３級の方は､一部無料です｡</p>
         </div>
     </header>
-
-    <!-- 更新情報 -->
-    <div id="contents">
-
-        <!-- <link rel="stylesheet" href="contents-maker/css/style.css"> -->
-        <p class="">新着情報</p>
-
-        <div id="news"></div>
-    </div>
 
     <!-- コロナ -->
     <section id="colona" class="colona wrapper wrapper_650" v-pre>
@@ -117,8 +108,19 @@
     </div>
 
     </section>
+        
+        <!-- 更新情報 -->
+    <div id="contents">
 
-    <!-- 掲示板 -->
+        <!-- <link rel="stylesheet" href="contents-maker/css/style.css"> -->
+        <p class="">新着情報</p>
+
+        <div id="news"></div>
+    </div>
+    
+    
+
+    <!-- 画像
     <div class="wrapper wrapper_650">
         <div class="hp_mb30">
             <img src="img/sample.jpg" alt="写真1">
@@ -143,7 +145,9 @@
             </div>
         </div>
     </div>
-
+    -->
+<br>
+    
     <!-- 当院3つの特徴 -->
     <section class="feature hp_mb50">
         <h3 class="blue-bg-ttl">訪問リハビリセンターの<span class="blue-bg-ttl_big">3</span>つの特徴</h3>
@@ -185,14 +189,14 @@
     </section>
 
     <!-- 連絡 -->
-    <div class="wrapper wrapper_650 hp_mb10">
+    <div class="wrapper wrapper_900 hp_mb10 text_center">
         <a href="tel:0428162874">
             <img src="img/tel.png" alt="電話番号">
         </a>
     </div>
 
     <!--出勤表 -->
-    <div class="wrapper wrapper_650 hp_mb20">
+    <div class="wrapper wrapper_900 hp_mb20 text_center">
         <img src="img/shift.png" alt="出勤表">
     </div>
     
@@ -306,13 +310,13 @@
     </section>
 
     <!-- 連絡 -->
-    <div class="wrapper wrapper_650 hp_mb10">
+    <div class="wrapper wrapper_650 hp_mb10 text_center">
         <a href="tel:0428162874">
             <img src="img/tel.png" alt="電話番号">
         </a>    </div>
 
     <!--出勤表 -->
-    <div class="wrapper wrapper_650 hp_mb20">
+    <div class="wrapper wrapper_650 hp_mb20 text_center">
         <img src="img/shift.png" alt="出勤表">
     </div>
 
@@ -549,13 +553,13 @@
     </section>
 
     <!-- 連絡 -->
-    <div class="wrapper wrapper_650 hp_mb10">
+    <div class="wrapper wrapper_650 hp_mb10 text_center">
         <a href="tel:0428162874">
             <img src="img/tel.png" alt="電話番号">
         </a>    </div>
 
     <!--出勤表 -->
-    <div class="wrapper wrapper_650 hp_mb20">
+    <div class="wrapper wrapper_650 hp_mb20 text_center">
         <img src="img/shift.png" alt="出勤表">
     </div>
 
@@ -575,20 +579,20 @@
             </p>
 
             <h2 class="worries_title hp_mb10 thick_white"><span class="worries_num">悩み2</span>　車イスで姿勢を保てない</h2>
-            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">関節可動域訓練</h2>
+            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">座位保持訓練</h2>
             <img class="hp_mb10" src="img/worries_2.jpg" alt="関節可動域訓練">
             <p class="worries_txt hp_mb30">
                 座位保持により体幹の筋力を鍛えることで、車イスで長時間座れるようになります。
             </p>
 
             <h2 class="worries_title hp_mb10 thick_white"><span class="worries_num">悩み3</span>　車いすへ移ることができない</h2>
-            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">座位保持訓練</h2>
+            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">移乗動作訓練</h2>
             <img class="hp_mb10" src="img/worries_3.jpg" alt="関節可動域訓練">
             <p class="worries_txt hp_mb30">
-                座位保持により体幹の筋力を鍛えることで、車イスで長時間座れるようになります。            </p>
+                立ち上がりの筋力強化および移乗動作の訓練をすることで、車イスへ移乗しやすくなります。</p>
 
             <h2 class="worries_title hp_mb10 thick_white"><span class="worries_num">悩み4</span>　車いすへ移ることができない</h2>
-            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">立ち上がり・移乗動作訓練</h2>
+            <h2 class="worries_sub_title hp_mb10 text_center thick_blue">歩行訓練</h2>
             <img class="hp_mb10" src="img/worries_4.jpg" alt="関節可動域訓練">
             <p class="worries_txt hp_mb30">
                 手摺や杖を使って歩行の練習を行います。
@@ -604,14 +608,14 @@
     </section>
 
     <!-- 連絡 -->
-    <div class="wrapper wrapper_650 hp_mb10">
+    <div class="wrapper wrapper_650 hp_mb10 text_center">
         <a href="tel:0428162874">
             <img src="img/tel.png" alt="電話番号">
         </a>    
     </div>
 
     <!--出勤表 -->
-    <div class="wrapper wrapper_650 hp_mb20">
+    <div class="wrapper wrapper_650 hp_mb20 text_center">
         <img src="img/shift.png" alt="出勤表">
     </div>
 
@@ -622,27 +626,67 @@
             <div class="container hp_mb20">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="img/sample.jpg" alt="画像">
+                        <img src="img/staff1.jpg" alt="画像">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                        <p class="visit_name thick">名前</p>
+                        <p class="visit_name thick">小林　司</p>
                     </div>
                 </div>
                 <p class="visit_txt hp_mb20">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    小林です！リハビリや介護はチームアプローチです。利用者様・ご家族様のお悩みを解決するため、医療・介護と連携を図りながら、利用者様のできることを増やすためのサポートをさせていただきます。
                 </p>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                        <img src="img/sample.jpg" alt="画像">
+                        <img src="img/staff2.jpg" alt="画像">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                        <p class="visit_name thick">名前</p>
+                        <p class="visit_name thick">松ケ野　雄二</p>
                     </div>
                 </div>
                 <p class="visit_txt">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    鍼灸マッサージ師の松ケ野です。鍼灸と機能訓練を組み合わせたリハビリで、利用者様が少しでも自立できるようにお手伝いさせて頂きます。
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <img src="img/staff3.jpg" alt="画像">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <p class="visit_name thick">大友　里美</p>
+                    </div>
+                </div>
+                <p class="visit_txt">
+                    大友です。利用者様の笑顔を見るのがこの仕事のいちばんのやりがいで大好きです。患者様とご家族様の日常の苦痛を軽減して、笑顔で過ごせるお手伝いをさせていただきます。
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <img src="img/staff4.jpg" alt="画像">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <p class="visit_name thick">高橋　誠</p>
+                    </div>
+                </div>
+                <p class="visit_txt">
+                    高橋誠と申します。自分の機能訓練やマッサージで、患者様が出来る事を増えたり、ご家族様の介助の負担を軽減して、少しでも生活の向上につながるようにサポートさせていただきます。
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <img src="img/staff5.jpg" alt="画像">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <p class="visit_name thick">西村　一生</p>
+                    </div>
+                </div>
+                <p class="visit_txt">
+                    西村と申します。介護は利用者様とご家族をセットでケアするものだと考えています。リハビリの専門家として、リハビリやマッサージで利用者様が少しでも
+できることが増えるようにするだけでなく、ご家族の介助負担を減らせるよに全力を尽くします。
                 </p>
             </div>
         </div>
@@ -884,7 +928,7 @@
             </dl>
             <dl class="c_footer__list">
                 <dt class="c_footer__title text_center">電話番号</dt>
-                <dd class="c_footer__txt">080-3415-0174</dd>
+                <dd class="c_footer__txt">042-816-2874</dd>
             </dl>
             <dl class="c_footer__list">
                 <dt class="c_footer__title text_center">住所</dt>
